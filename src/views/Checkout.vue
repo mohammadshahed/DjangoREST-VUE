@@ -176,17 +176,17 @@ export default {
             if (!this.errors.length) {
 
 
-                const items = []
+                // const items = []
 
-                for (let i = 0; i < this.cart.items.length; i++) {
-                    const item = this.cart.items[i]
-                    const obj = {
-                        product: item.product.id,
-                        quantity: item.quantity,
-                        price: item.product.price * item.quantity
-                    }
+                // for (let i = 0; i < this.cart.items.length; i++) {
+                //     const item = this.cart.items[i]
+                //     const obj = {
+                //         product: item.product.id,
+                //         quantity: item.quantity,
+                //         price: item.product.price * item.quantity
+                //     }
 
-                    items.push(obj)
+                //     items.push(obj)
                 }
                     const data = {
                         'first_name': this.first_name,
