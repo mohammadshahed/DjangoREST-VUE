@@ -11,7 +11,7 @@ npm run serve
 npm run build
 ```
 
-### Project Details 
+### How Project does work?  
 - Users can register and login.  
 - Only Registered User are able to go to "Procced to checkout".
-- Every indiviual user are able to see their own order history. 
+- Every individual user can see their own order history. 
